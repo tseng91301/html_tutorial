@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container .left {
+            flex: 1;
+        }
+        .container p {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <!-- 其他靠左的元素 -->
+            <span>靠左的元素 1</span>
+            <span>靠左的元素 2</span>
+        </div>
+        <p>靠右的段落</p>
+    </div>
+</body>
+</html>
